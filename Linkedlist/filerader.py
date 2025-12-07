@@ -81,7 +81,7 @@ class Linked_List:
             if current.priority < node.priority:
 
 
-
+#test for inactivity
 
 
 filepath = r'C:\Users\showm\PycharmProjects\PythonProject\.venv\Linked List\tasks.csv'
@@ -100,4 +100,5 @@ todo.display_tasks()
 print("\nTotal duration:", todo.calculate_total_duration())
 
 print("\nFind Sell:", todo.find_task('Sell'))  # -> None
+
 
